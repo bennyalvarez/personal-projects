@@ -77,13 +77,18 @@ body {
     color: midnightblue;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
-
+/*******FOOTER******/
 #footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 99.5%;
+    padding-top: 20px;
     height: 2.5rem;            /* Footer height */
-    background-color: dimgrey;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 5px solid white;
 }
 
 /*Landing Page Benny the Baker Image*/
