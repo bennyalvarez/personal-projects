@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,900&display=swap');
+
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
 body {
     background-color: skyblue;
+    margin: 0px;
 }
 
 #wrapper {
@@ -14,6 +22,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: midnightblue;
+    font-family: 'Alegreya Sans SC', sans-serif;
     color: white;
     font-weight: bolder;
     border: 5px solid white;
@@ -24,7 +33,7 @@ body {
     float: left;
     padding: 15px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
 
 }
@@ -37,6 +46,7 @@ body {
 .nav-item a {
     float: right;
     padding: 20px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 
@@ -46,5 +56,11 @@ body {
     color: yellow;
 }
 
+/****** LANDING PAGE bakery.html *******/
+
+
+.landing-pg {
+    text-align: center;
+}
 
 
