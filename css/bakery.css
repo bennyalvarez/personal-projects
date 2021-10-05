@@ -7,7 +7,7 @@
 
 body {
     background-color: skyblue;
-    margin: 0px;
+    margin: 0;
 }
 
 #wrapper {
@@ -25,6 +25,7 @@ body {
     font-family: 'Alegreya Sans SC', sans-serif;
     color: white;
     font-weight: bolder;
+    text-shadow: 2px 1px cornflowerblue;
     border: 5px solid white;
 }
 
@@ -61,6 +62,27 @@ body {
 
 .landing-pg {
     text-align: center;
+    color: midnightblue;
 }
 
+.landing-pg>h1 {
+    font-size: 70px;
+    text-shadow: 2px 3px white;
+    color: midnightblue;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/*Landing Page Benny the Baker Image*/
+.benny-the-baker1 {
+    width: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform .3s; /* Animation */
+}
+
+.benny-the-baker1:hover {
+    transform: scale(1.2);
+}
 
