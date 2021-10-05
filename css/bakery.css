@@ -5,3 +5,46 @@ body {
 #wrapper {
     border: 1px solid black;
 }
+
+/**********NAVBAR EVERYTHING************/
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+    color: white;
+    font-weight: bolder;
+    border: 5px solid white;
+}
+
+/*Navbar Title Link*/
+.nav-title a {
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+}
+
+.nav-title a:hover {
+    color: yellow;
+}
+
+/*Navbar Individual Links*/
+.nav-item a {
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-item a:hover {
+    color: yellow;
+}
+
+
+
