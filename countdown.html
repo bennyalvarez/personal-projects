@@ -5,8 +5,9 @@
     <title>Countdown to New Year's</title>
 </head>
 <body>
-    <h1>Seconds left: <span id="time-left">10</span></h1>
+    <h1>Time left: <span id="time-left">30</span></h1>
     <button id="start-button">Start</button>
+    <p id="demo"></p>
     <script>
         // var count = 5;
         // var min = 0;
@@ -32,24 +33,24 @@
         //}
 
         //this connects the javascript to the HTML
-        document.addEventListener('DOMContentLoaded', () => {
-            const timeLeftDisplay = document.querySelector('#time-left')
-            const startBtn = document.querySelector('#start-button')
-            timeLeft = 10;
-
-            function countDown() {
-                setInterval(function () {
-                    if (timeLeft <= 0) {
-                        clearInterval(timeLeft = 0)
-                    }
-                    timeLeftDisplay.innerHTML = timeLeft
-                    timeLeft -= 1
-                }, 1000)
-            }
-
-            startBtn.addEventListener('click', countDown); //has to be inside the scope to be called.
-            //button to perform countdown
-                });
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     const timeLeftDisplay = document.querySelector('#time-left')
+        //     const startBtn = document.querySelector('#start-button')
+        //     timeLeft = 30;
+        //
+        //     function countDown() {
+        //         setInterval(function () {
+        //             if (timeLeft <= 0) {
+        //                 clearInterval(timeLeft = 0)
+        //             }
+        //             timeLeftDisplay.innerHTML = timeLeft
+        //             timeLeft -= 1
+        //         }, 1000)
+        //     }
+        //
+        //     startBtn.addEventListener('click', countDown); //has to be inside the scope to be called.
+        //     //button to perform countdown
+        //         });
 
 
 
@@ -60,6 +61,45 @@
         //
         // })
 
+        <!-- Display the countdown timer in an element -->
+
+
+            //This is an example of a 15 minute countdown timer.
+            // Set the date we're counting down to
+            var countDownDate = new Date().getTime() + 15 * 60 * 1000;
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for hours, minutes and seconds
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML =  hours + ":"
+            + minutes + ":" + seconds;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+
+            var singers = [
+                {"Ron", "Web", "Eidref", "Lhora", "Eileen", "Beejay"
+            ];
+
+            singers.forEach(function(singer) {
+                document.write(singer + "<br>")
+            })
 
 
 
