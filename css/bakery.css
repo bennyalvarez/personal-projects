@@ -105,3 +105,6 @@ body {
     transform: scale(1.2);
 }
 
+#recipes>p {
+    font-weight: bold;
+}
