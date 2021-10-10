@@ -105,6 +105,11 @@ body {
     transform: scale(1.2);
 }
 
+/*TESTING DIRECT CHILD SELECTOR NOT WORKING YET*/
 #recipes>p {
     font-weight: bold;
+}
+
+#container>h1 {
+    color: red;
 }
