@@ -8,6 +8,7 @@
 body {
     /*background-color: skyblue;*/
     margin: 0;
+
 }
 
 #wrapper {
@@ -115,4 +116,9 @@ body {
     background-color: yellow;
     font-weight: bold;
     color: red;
+}
+
+/******RECIPE PAGE*******/
+.recipe-list {
+    list-style: none;
 }
