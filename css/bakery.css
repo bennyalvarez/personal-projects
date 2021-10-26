@@ -122,3 +122,10 @@ body {
 .recipe-list {
     list-style: none;
 }
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    background-image: url("../img/cakes.jpg");
+    background-size: cover;
+}
