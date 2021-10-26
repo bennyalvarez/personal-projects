@@ -94,12 +94,14 @@ body {
 
 /*Landing Page Benny the Baker Image*/
 .benny-the-baker1 {
+    border-radius: 50%;
     width: 20%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     transition: transform .3s; /* Animation */
+    border: 10px solid gold;
 }
 
 .benny-the-baker1:hover {
@@ -128,4 +130,5 @@ body {
 .jumbotron {
     background-image: url("../img/cakes.jpg");
     background-size: cover;
+    border: 5px solid white;
 }
