@@ -6,7 +6,7 @@
 /*}*/
 
 body {
-    /*background-color: lightcyan;*/
+    background-color: #4f4fd8;
     margin: 0;
 
 }
@@ -74,9 +74,17 @@ body {
 
 #content-wrap>h1 {
     font-size: 70px;
-    text-shadow: 2px 3px white;
-    color: midnightblue;
+    text-shadow: 2px 3px midnightblue;
+    color: gold;
     font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 3px midnightblue;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
 /*******FOOTER******/
 #footer {
@@ -106,6 +114,16 @@ body {
 
 .benny-the-baker1:hover {
     transform: scale(1.2);
+}
+
+.cheesecake {
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform .3s; /* Animation */
+
 }
 
 /*TESTING DIRECT CHILD SELECTOR NOT WORKING YET*/
