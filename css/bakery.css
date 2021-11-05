@@ -73,6 +73,10 @@ body {
     padding-bottom: 2.5rem;    /* Footer height */
 }
 
+li {
+    color: white;
+}
+
 #content-wrap>h1 {
     font-size: 70px;
     text-shadow: 4px 5px midnightblue;
