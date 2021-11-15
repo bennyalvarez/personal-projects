@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Harborside Email 1</title>
+<!--    <meta charset="UTF-8">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
-
+/*<!--        create a second html file with all your css embedded. add media queries under your css last so you can do adjustments. -->*/
+    @media screen and (max-width: 600px) {
+        #thumbnail-area {
+            text-align: center !important;
+            width: 100% !important;
+            /*float: none !important;*/
+        }
+    }
     </style>
 </head>
 <body>
     <div>
         <!--THIS IS THE BANNER IMAGE-->
-        <div id="rev-banner" style="text-align: center; padding: 10px;">
+        <div id="rev-banner" style="text-align: center; padding: 10px; margin: 10px; object-fit: fill;">
             <img src="https://elertfinancial.com/RevBuilder/promo-emails/images/header-elert-01.png" alt="RevBuilder banner image" style="max-width: 100%;">
         </div>
         <!--THIS IS THE THUMBNAIL IMAGE SECTION AND BUTTON-->
-        <div id="thumbnail" style="float: right; background-color: #EDEFF0; height: 400px; width: 300px; text-align: center;
-            padding: 20px;">
-        <div>
-            <button style="width: 95%; font-size: 20px; background-color: orange; color: white; border-radius: 10px; border: none; padding: 15px; font-family: sans-serif; font-stretch: extra-expanded; font-weight: bold;">SCHEDULE A DEMO</button>
-            </div><br><br><br>
-            <img src="https://elertfinancial.com/RevBuilder/promo-emails/images/revbuilder-profile-th.jpg" alt="Thumbnail image" style="width: 50%;"><br>
-            <h2 style="font-family: sans-serif;">Profile</h2>
-        </div>
-            <!--THIS IS THE CONTENT AREA TEXT-->
-            <div style="font-family: sans-serif; font-size: 25px; color: #5d5d5d;">
-
-                <h1>A <strong style="color: rgb(69 114 136);">Must-Have</strong> for Your <strong style="color: rgb(69 114 136);">2022 <br>Business Plan</strong></h1>
-                <p><strong>Looking to propel your firm's revenue and client satisfaction to new levels in 2022?</strong></p>
-
-                   <p><strong style="color: rgb(69 114 136);"><em>Rev</em>Builder360 does it for you.</strong> Delivered in your brand, RevBuilder360 is a comprehensive, turnkey communication program that provides seamless, consistent marketing materials to elevate your brand, strengthen 
-                your new business pipeline, and differentiate your firm from competition. 
-            </p>
+            <div id="thumbnail-area" style="float: right; background-color: #EDEFF0; height: 375px; width: 295px; text-align: center;
+                padding: 20px; margin: 20px;">
+            <div>
+                <button style="width: 95%; font-size: 20px; background-color: orange; color: white; border-radius: 10px; border: none; padding: 15px; font-family: sans-serif; font-stretch: extra-expanded; font-weight: bold;">SCHEDULE A DEMO</button>
+                </div><br><br><br>
+                <img src="https://elertfinancial.com/RevBuilder/promo-emails/images/revbuilder-profile-th.jpg" alt="Thumbnail image" style="width: 50%;"><br>
+                <h2 style="font-family: sans-serif;">Profile</h2>
+            </div>
+        <!--THIS IS THE CONTENT AREA TEXT-->
+        <div id="content-area" style="font-family: sans-serif; font-size: 25px; color: #5d5d5d; padding: 20px;">
+            <h1 style="font-weight: normal">A <strong style="color: #457288;">Must-Have</strong> for Your <strong style="color: #457288;">2022 Business Plan</strong></h1>
+            <p><strong>Looking to propel your firm's revenue and client satisfaction to new levels in 2022?</strong></p>
+            <p><strong style="color: #457288;"><em>Rev</em>Builder360 does it for you.</strong> Delivered in your brand, RevBuilder360 is a comprehensive, turnkey communication program that provides seamless, consistent marketing materials to elevate your brand, strengthen
+            your new business pipeline, and differentiate your firm from competition.</p>
+            <hr style="border-bottom: 10px dotted #F2F2F2; border-top: none;" />
         </div>
     </div>
 </body>
